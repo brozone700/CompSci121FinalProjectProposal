@@ -4,19 +4,19 @@ Christian Livingston, CSCI 121 — Java final project
 
 ## Purpose
 
-Demonstrates object-oriented programming, abstract data types and data structures from CSCI 121 by extending my ATM project into a text-based casino.
+Demonstrates object-oriented programming, abstract data types and data structures from CSCI 121 by extending my ATM project into a text-based casino for fun.
 
 ## Overview
 
-A text casino where players use chips to play Blackjack and Slots. It builds on my ATM: each player is also a bank customer, so they buy chips from checking, cash out winnings, and can take out a loan. Player data is saved between runs.
+A text based casino where players use chips to play Blackjack and Slots. It builds on my ATM code: each player is also a bank customer, so they buy chips from checking, cash out winnings, and can take out a loan. Player data is saved between runs.
 
 ## Game Classes
 
 - Game (abstract): holds the Player and the bet, handles betting and payouts, and requires each game to implement play().
 - Blackjack: plays a round against the dealer using a Deck and two Hands.
 - Slots: spins the reels and pays out on matching symbols.
-- Card, Deck and Hand: model the cards, the 52-card deck, and a hand's total.
-- might add roullette but it will depend on how the other stuff goes
+- Cards, Deck, and Hand: model the cards, the 52-card deck, and a hand's total.
+- Might add roulette, but it will depend on how the other stuff goes
 
 ## Other Classes
 
@@ -32,7 +32,7 @@ A text casino where players use chips to play Blackjack and Slots. It builds on 
 
 ## Use of Object-Oriented Programming Paradigms
 
-14 classes, one interface and two enums:
+14 classes, one interface, and two enums:
 
 - Inheritance: Player extends Customer; Blackjack and Slots extend Game.
 - Encapsulation: all data members are private.
